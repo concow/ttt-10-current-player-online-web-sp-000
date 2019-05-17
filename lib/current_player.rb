@@ -2,7 +2,7 @@
 #current_player method takes in an argument of board array and uses #turn_count method to determine if it is "X"'s turn or "O"'s
 
 def turn_count(board)
-  turns = 0                             #initialize turn_count variable starting at 0
+  turns = 0                             #initialize turns variable starting at 0
   board.each do |token|                 #iterate each element on board. token is... 
     if token == "X" || token == "O"     #if tokens are either X or O add to turn count
       turns += 1
