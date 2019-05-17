@@ -3,7 +3,7 @@
 
 def turn_count(board)
   turns = 0                             #initialize turns variable starting at 0
-  board.each do |token|                 #iterate each element on board. token is variable label for our array to be passed into the block
+  board.each do |token|                 #iterate each element on board. token is variable label for our array to be passed into the block of code
     if token == "X" || token == "O"     #if tokens are either X or O add to turn count
       turns += 1
     end
